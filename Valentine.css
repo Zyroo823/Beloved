@@ -69,15 +69,15 @@ img {
   border-radius: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .snowflake {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
 .snowflake {
   color: #fff;
-   font-size: clamp(10px, 2vw, 18px);
+   font-size: clamp(8px, 2vw, 14px);
   font-family: Arial;
   text-shadow: 0 0 1px #000;
   position: fixed;
