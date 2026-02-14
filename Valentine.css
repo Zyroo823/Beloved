@@ -19,7 +19,7 @@ body {
 }
 
 .btn-group button {
-  font-size: 24px;           
+  font-size: clamp(18px, 4vw, 35px);           
   padding: 20px 50px;        
   border-radius: 14px;
   align-items: center;
@@ -65,7 +65,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: 25%;
+  width: clamp(200px, 50vw, 400px);
   border-radius: 20px;
 }
 
