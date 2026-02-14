@@ -53,10 +53,9 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-  button {
-    font-size: 16px;
-    padding: 10px 22px;
-    min-width: 100px;
+  .image, img {
+    width: 95vw;  
+    height: auto;
   }
 }
 
