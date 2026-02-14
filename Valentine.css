@@ -50,8 +50,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60vw;
-  max-width: 350px;
+  width: 50vw;          
+  max-width: 150px;     
+  aspect-ratio: 74.4 / 166.6; 
   height: auto;
   border-radius: 20px;
 }
